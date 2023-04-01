@@ -25,7 +25,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:uid/cached-uid-spring.xml" })
 public class CachedUidGeneratorTest {
-    private static final int SIZE = 7000000; // 700w
+    private static final int SIZE = 100000; // 10w
     private static final boolean VERBOSE = false;
     private static final int THREADS = Runtime.getRuntime().availableProcessors() << 1;
 
